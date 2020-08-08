@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Greet/>
       <h1>Live website test</h1>
-      <Welcome/>
+      <h1>First update!</h1>
     </div>
   );
 }
