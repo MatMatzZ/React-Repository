@@ -7,9 +7,9 @@ import Welcome from './components/Welcome'
 function App() {
   return (
     <div className="App">
-      <Greet/>
-      <h1>Live website test</h1>
-      <h1>First update!</h1>
+      <Greet name ="Bruce"/>
+      <Greet name ="Clark"/>
+      <Greet name ="Diana"/>
     </div>
   );
 }
