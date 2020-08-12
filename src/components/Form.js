@@ -65,7 +65,7 @@ class Form extends Component {
         const topics = ['React','Angular','Vue'];
         return (
             <div>
-                <h1>Forms Basic</h1>
+                <h1>Forms Basics</h1>
                 <form onSubmit={this.handleSubmit}>
                     <UserName username={this.state.username} handleUsernameChange={this.handleUsernameChange}></UserName>
                     <Comments comment={this.state.comments} handleCommentsChange={this.handleCommentsChange}/>
