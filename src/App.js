@@ -33,21 +33,16 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounter2 from './components/HoverCounter2';
 import User from './components/User';
 import Counters from './components/Counters';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <Counters 
-          render={(count,incrementCount) => (
-            <ClickCounterTwo count={count} incrementCount={incrementCount}></ClickCounterTwo>
-        )}/>
-        {/* <ClickCounterTwo/> */}
-        {/* <HoverCounter2/> */}
-        {/* <User name = {(isLoggedIn) => isLoggedIn ? "Mat": "Guest"}/> */}
-        {/* HOC Pattern */}
-        {/* <ClickCounter name="Mat"></ClickCounter> */}
-        {/* <HoverCounter></HoverCounter> */}
+        {/* <UserProvider value= 'Mat'>
+          <ComponentC/>
+        </UserProvider> */}
       </div>
     );
   }
